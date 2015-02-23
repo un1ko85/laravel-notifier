@@ -1,0 +1,28 @@
+{
+    "name": "pascal/laravel-notifier",
+    "description": "notification messages for laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Schwientek",
+            "email": "pascal.schwientek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pascal\\Notify": "src/"
+        },
+        "files": [
+            "src/Pascal/Notify/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
